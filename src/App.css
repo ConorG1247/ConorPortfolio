@@ -7,6 +7,7 @@
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 a:link {
@@ -69,7 +70,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 1.3rem;
   width: 70%;
   height: 5vh;
-  z-index: 1;
+  z-index: 2;
 }
 
 .navbar-container-logo {
@@ -273,6 +274,8 @@ body::-webkit-scrollbar-thumb {
   max-height: 36%;
   min-height: 30vh;
   background-color: var(--secondary-background-colour);
+  z-index: 1;
+
 }
 
 .main-about-body {
@@ -324,7 +327,7 @@ body::-webkit-scrollbar-thumb {
   max-height: 36%;
   min-height: 50vh;
   background-color: var(--main-background-color);
-  z-index: 0;
+  z-index: 1;
 }
 
 .work-open {
@@ -348,6 +351,7 @@ body::-webkit-scrollbar-thumb {
   width: 100%;
   height: 100%;
   background-color: var(--secondary-background-colour);
+
 }
 
 .main-work-text {
@@ -424,7 +428,7 @@ body::-webkit-scrollbar-thumb {
 
 .display-closed {
   transform: translateY(100%);
-  transition: 1000ms;
+  transition: 600ms;
 }
 
 .display-close-icon {
@@ -620,6 +624,7 @@ font-size: .8em;
   padding-bottom: 100px;
   color: var(--main-background-color);
   background-color: var(--secondary-background-colour);
+  z-index: 1;
 }
 
 .bio-container {
@@ -673,6 +678,17 @@ font-size: .8em;
 
 .contact-icon-lg:hover {
   color: #9DE6F5;
+}
+
+.bg-img {
+  position: absolute;
+  object-fit: cover;
+  min-width: 2500px;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  opacity: .08;
 }
 
 @media (max-width: 70em) {
@@ -761,7 +777,7 @@ font-size: .8em;
    width: 90%;
   }
   .navbar-container-links {
-    visibility: hidden;
+    display: none;
   }
   .main-text {
     max-width: 60%;
@@ -800,6 +816,9 @@ font-size: .8em;
   }
   .contact-icon-lg {
     height: 50px;
+  }
+  .bg-img {
+    display: none;
   }
 }
 

@@ -20,6 +20,12 @@ function App() {
               full-stack developer.
             </p>
           </div>
+          <img
+            className="bg-img"
+            ref={ref}
+            src="https://cdn.mos.cms.futurecdn.net/uPsn9Sja6CMbXfBFCBvS8Y-1200-80.jpg"
+            alt="background"
+          />
         </div>
         <About />
         <Work />
