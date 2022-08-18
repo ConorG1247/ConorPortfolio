@@ -173,7 +173,7 @@ function Experience() {
         </div>
         <div className="experience-info-desc">
           As all of my work was freelance, it was crucial that I maintained good
-          client relationships as to get future work with them when needed. As I
+          client relationships to get future work with them when needed. As I
           worked for several different clients per year, it was also essential
           for me to be comfortable working within a new team when needed.
         </div>
