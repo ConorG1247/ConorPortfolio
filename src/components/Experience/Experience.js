@@ -159,7 +159,7 @@ function Experience() {
             </div>
             <div className="experience-text2" style={{ fontSize: ".8em" }}>
               {" "}
-              february '17 - december '21
+              february '16 - february '20
             </div>
           </div>
         </div>
