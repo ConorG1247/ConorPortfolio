@@ -178,7 +178,7 @@ function Experience() {
           for me to be comfortable working within a new team when needed.
         </div>
         <div className="experience-info-desc">
-          Early in my career, I worked hard to liase with different clients and
+          Early in my career, I worked hard to liaise with different clients and
           seek out work to create many relationships which lasted the entire
           four years I worked as a graphic designer. I developed great time
           management skills in order to finish work by client deadlines as well
