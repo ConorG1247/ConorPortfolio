@@ -11,7 +11,7 @@ function Bio() {
         </div>
         <div className="bio-description">
           I enjoy improvement in many aspects, whether it's improving at a video
-          game, learning new languages or using unfamiliar tech with software
+          game, learning a new language or using unfamiliar tech with software
           development. I'm{" "}
           <span style={{ color: "rgb(73, 174, 164)" }}> ambitious </span> with
           what I try to achieve, but not overly so. This leads me to going
