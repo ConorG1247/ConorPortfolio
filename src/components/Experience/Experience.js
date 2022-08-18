@@ -185,13 +185,6 @@ function Experience() {
           as asking for consistent feedback during the design process to ensure
           I followed the project scope.
         </div>
-        <div className="experience-info-desc">
-          Towards the end of 2021 I was comfortable with where I currently was
-          at, but wanted to seek out more fulfilling work where I could
-          constantly progress and improve in a field that's constantly changing
-          such as tech. This led to me to applying for and starting the School
-          of Code bootcamp in 2022.
-        </div>
       </div>
     </div>
   );
