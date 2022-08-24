@@ -109,7 +109,7 @@ function Experience() {
             icon={faNpm}
           />
         </div>
-        <div>
+        {/* <div>
           <div className="experience-info-title">
             <img
               className="experience-soc"
@@ -184,7 +184,7 @@ function Experience() {
           management skills in order to finish work by client deadlines as well
           as asking for consistent feedback during the design process to ensure
           I followed the project scope.
-        </div>
+        </div> */}
       </div>
     </div>
   );
