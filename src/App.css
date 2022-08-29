@@ -303,7 +303,7 @@ body::-webkit-scrollbar-thumb {
   min-width: 170px;
   min-height: 170px;
   border-radius: 5px;
-  box-shadow: 5px 5px 10px #2e2e2e;
+  box-shadow: 2px 2px 5px #2e2e2e;
 }
 
 .main-about-text {
@@ -386,7 +386,7 @@ body::-webkit-scrollbar-thumb {
 .main-work-image {
   cursor: pointer;
   border-radius: 20px;
-  box-shadow: 5px 5px 10px #2e2e2e;
+  box-shadow: 2px 2px 5px #2e2e2e;
   overflow: hidden;
   transition: 100ms;
 }
@@ -546,8 +546,6 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  padding-bottom: 55px;
-  border-bottom: 1px solid rgb(212, 212, 212, 0.3);
 }
 
 .experience-techstack {
@@ -615,8 +613,8 @@ body::-webkit-scrollbar-thumb {
   align-items: center;
   justify-content: center;
   width: 100%;
-  padding-top: 50px;
-  padding-bottom: 100px;
+  padding-top: 30px;
+  padding-bottom: 50px;
   color: var(--main-background-color);
   background-color: var(--secondary-background-colour);
   z-index: 1;

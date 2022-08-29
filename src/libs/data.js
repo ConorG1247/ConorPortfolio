@@ -8,8 +8,8 @@ export const data = [
     image: "https://puu.sh/JdRaC/b2e5611c65.png",
   },
   {
-    title: "Bok",
-    image: "https://puu.sh/JdJkt/b1d4623621.png",
+    title: "BÖK",
+    image: "https://puu.sh/JiD0M/8e0949c427.png",
   },
 ];
 
@@ -57,10 +57,25 @@ export const workData = [
     ],
   },
   {
-    title: "Bok",
-    images: [],
+    title: "BÖK",
+    images: [
+      "https://puu.sh/JiD0M/8e0949c427.png",
+      "https://puu.sh/JiD0O/2dc3b8c607.png",
+      "https://puu.sh/JiD1B/2b6fcabacf.png",
+      "https://puu.sh/JiD1H/4daf478a9c.png",
+      "https://puu.sh/JiD1Q/edfc446fc9.png",
+      "https://puu.sh/JiD1X/9153f03f73.png",
+    ],
     tech: "Postgres, Express, Next.js, Node.js and Material UI",
-    description: ["test"],
-    links: ["github", "live"],
+    description: [
+      "For the final 4 weeks of School of Code, with 5 other random bootcampers, we we're given a brief and set out to create a real world app.",
+      "We decided to challenge ourselves by using Next.js as well as Material UI as we didn't have experience using these before and we didn't want to stick only with what we knew.",
+      "Similar to my Animovies app, we created a book finder which allows the user to create a personal reading list or keep track and score which books they've read.",
+      "We constantly used an agile methodology throughout creating the app by taking  user feedback and changing features or redesigning pages. It was a great chance to get real world experience of working in a tech team for a month and I learnt a lot of skills, not only technically but soft skills needed for working in an effective team.",
+    ],
+    links: [
+      "https://github.com/SchoolOfCode/final-project_front-end-hackson5",
+      "https://hackson5bok.vercel.app/",
+    ],
   },
 ];
