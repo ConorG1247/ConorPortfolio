@@ -4,12 +4,16 @@ export const data = [
     image: "https://puu.sh/JdJkt/b1d4623621.png",
   },
   {
-    title: "Learn Japanese",
-    image: "https://puu.sh/JdRaC/b2e5611c65.png",
+    title: "BSS Calculator",
+    image: "https://puu.sh/JnQeR/a883911b97.png",
   },
   {
     title: "BÖK",
     image: "https://puu.sh/JiD0M/8e0949c427.png",
+  },
+  {
+    title: "Learn Japanese",
+    image: "https://puu.sh/JdRaC/b2e5611c65.png",
   },
 ];
 
@@ -36,24 +40,25 @@ export const workData = [
     ],
   },
   {
-    title: "Learn Japanese",
+    title: "BSS Calculator",
     images: [
-      "https://puu.sh/JdRaq/ce1effe0c6.png",
-      "https://puu.sh/JdRaC/b2e5611c65.png",
-      "https://puu.sh/JdRaF/2ed8a09059.png",
-      "https://puu.sh/JdRaZ/f4f38fe81f.png",
-      "https://puu.sh/JdRbF/a5ca648b8a.png",
+      "https://puu.sh/JnQeR/a883911b97.png",
+      "https://puu.sh/JnQfh/d7dbc6ad0d.png",
+      "https://puu.sh/JnQg9/7f01d966c3.png",
+      "https://puu.sh/JnQgm/322fa1f7f9.png",
+      "https://puu.sh/JnQgO/7ef17fd2b7.png",
+      "https://puu.sh/JnQhe/d4c41fdef2.png",
     ],
-    tech: "React and Chakra UI",
+    tech: "React and TypeScript",
     description: [
-      "After creating my Anime and Movies API app, I wanted to continue growing my knowledge of React so I set out to create a single page app with mobile users in mind.",
-      "I settled on the idea of an app which helps with learning a new language, in this case Japanese, in a structured and organised way. The user is given several options to choose from which affect the diffuculty of what they're learning, the game type and the amount of rounds they want to practice for.",
-      "This is an ongoing project as I am still new to learning Japanese and I'm developing this as I progress, I've found it helpful with memorizing a lot of the Japanese alphabet as well as some phrases and words.",
-      "Creating the logic for the flash cards system was more challenging than I'd expected, but I feel I've improved with React and JavaScript a great amount since starting and hope I will continue to grow the more I develop this app.",
+      "After finishing the SoC Bootcamp, I wanted to continue growing my knowledge of tech used as well as ones I'd only been briefly introduced to, this is why I decided to use React and TypeScript for this project. The app was created primarily for mobile however, it's fully responsive and works great for desktop as well.",
+      "The idea for the app is an item recipe calculator for a game I play which makes it easier to keep track of item progress. I initially searched for an app similar to what I needed within the game community but couldn't find anything so I decided to create one myself.",
+      "I felt React would be perfect for this type of project as all I planned on making a single page application and I also wanted to become more comfortable with TypeScript after being introduced to it on the course but not having a good chance to use it.",
+      "There were a few struggles at the beggining while using TypeScript but after a short amount of time I'm now as confident using TS as I am with JavaScript. I used different hooks within react which I hadn't previously used before such as useContext for the theme toggle and passing state throughout the app without prop drilling.",
     ],
     links: [
-      "https://github.com/ConorG1247/japanese-app",
-      "https://learn-japanese-app.netlify.app",
+      "https://github.com/ConorG1247/BSSCalc",
+      "https://bsscalculator.netlify.app/",
     ],
   },
   {
@@ -76,6 +81,27 @@ export const workData = [
     links: [
       "https://github.com/SchoolOfCode/final-project_front-end-hackson5",
       "https://hackson5bok.vercel.app/",
+    ],
+  },
+  {
+    title: "Learn Japanese",
+    images: [
+      "https://puu.sh/JdRaq/ce1effe0c6.png",
+      "https://puu.sh/JdRaC/b2e5611c65.png",
+      "https://puu.sh/JdRaF/2ed8a09059.png",
+      "https://puu.sh/JdRaZ/f4f38fe81f.png",
+      "https://puu.sh/JdRbF/a5ca648b8a.png",
+    ],
+    tech: "React and Chakra UI",
+    description: [
+      "After creating my Anime and Movies API app, I wanted to continue growing my knowledge of React so I set out to create a single page app with mobile users in mind.",
+      "I settled on the idea of an app which helps with learning a new language, in this case Japanese, in a structured and organised way. The user is given several options to choose from which affect the diffuculty of what they're learning, the game type and the amount of rounds they want to practice for.",
+      "This is an ongoing project as I am still new to learning Japanese and I'm developing this as I progress, I've found it helpful with memorizing a lot of the Japanese alphabet as well as some phrases and words.",
+      "Creating the logic for the flash cards system was more challenging than I'd expected, but I feel I've improved with React and JavaScript a great amount since starting and hope I will continue to grow the more I develop this app.",
+    ],
+    links: [
+      "https://github.com/ConorG1247/japanese-app",
+      "https://learn-japanese-app.netlify.app",
     ],
   },
 ];
