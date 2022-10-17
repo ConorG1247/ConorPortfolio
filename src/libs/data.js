@@ -23,8 +23,12 @@ export const data = [
 
 export const workData = [
   {
-    title: "BSS Calculator",
+    title: "BSS Tools (Game App)",
     images: [
+      "https://puu.sh/Jpfen/8b891412d0.png",
+      "https://puu.sh/Jpfez/432d808595.png",
+      "https://puu.sh/JpfeF/4a0440f044.png",
+      "https://puu.sh/JpfeK/a3c411731f.png",
       "https://puu.sh/JnQeR/a883911b97.png",
       "https://puu.sh/JnQfh/d7dbc6ad0d.png",
       "https://puu.sh/JnQg9/7f01d966c3.png",
