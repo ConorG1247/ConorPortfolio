@@ -9,8 +9,12 @@ import {
 } from "@fortawesome/free-solid-svg-icons";
 
 function WorkDisplay({ displayOpen, displayChange, workInfo }) {
-  const slideLeft = () => {
+  const slideLeft = (reset) => {
     let slider = document.getElementById("slider");
+    let resetScroll = setTimeout(() => (slider.scrollLeft = 0), 600);
+
+    if (reset) return resetScroll;
+
     slider.scrollLeft = slider.scrollLeft - 500;
   };
 
@@ -28,7 +32,10 @@ function WorkDisplay({ displayOpen, displayChange, workInfo }) {
       }
     >
       <FontAwesomeIcon
-        onClick={() => displayChange()}
+        onClick={() => {
+          displayChange();
+          slideLeft(true);
+        }}
         className="display-close-icon"
         icon={faXmark}
       />

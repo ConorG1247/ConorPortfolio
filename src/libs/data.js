@@ -1,13 +1,13 @@
 export const data = [
   {
-    title: "Animovies",
-    tech: "React, MongoDB, Express, Node.js and Chakra UI",
-    image: "https://puu.sh/JdJkt/b1d4623621.png",
-  },
-  {
     title: "BSS Tools (Game)",
     tech: "React and TypeScript",
     image: "https://puu.sh/JnQeR/a883911b97.png",
+  },
+  {
+    title: "Animovies",
+    tech: "React, MongoDB, Express, Node.js and Chakra UI",
+    image: "https://puu.sh/JdJkt/b1d4623621.png",
   },
   {
     title: "BÖK",
@@ -16,12 +16,34 @@ export const data = [
   },
   {
     title: "Learn Japanese",
-    tech: "React and Chakra",
+    tech: "React and Chakra UI",
     image: "https://puu.sh/JdRaC/b2e5611c65.png",
   },
 ];
 
 export const workData = [
+  {
+    title: "BSS Calculator",
+    images: [
+      "https://puu.sh/JnQeR/a883911b97.png",
+      "https://puu.sh/JnQfh/d7dbc6ad0d.png",
+      "https://puu.sh/JnQg9/7f01d966c3.png",
+      "https://puu.sh/JnQgm/322fa1f7f9.png",
+      "https://puu.sh/JnQgO/7ef17fd2b7.png",
+      "https://puu.sh/JnQhe/d4c41fdef2.png",
+    ],
+    tech: "React and TypeScript",
+    description: [
+      "After finishing the SoC Bootcamp, I wanted to continue growing my knowledge of tech used as well as ones I'd only been briefly introduced to, this is why I decided to use React and TypeScript for this project. The app was created primarily for mobile however, it's fully responsive and works great for desktop as well.",
+      "The idea for the app is a selection of different tools for a game I play which makes it easier to keep track of item progress, plan different items to get in game and calculate materials used per level up. I initially searched for an app similar within the game community but couldn't find anything and decided this would be a great opportunity to create one myself.",
+      "Initially, I only planned on having one tool in the app (recipe calculator) but after getting feedback from the community on more features I could add, I created the item planenr as well.",
+      "It was a fun project to work on and sharing it within an active community and getting real feedback really helped the design and feature addition process.",
+    ],
+    links: [
+      "https://github.com/ConorG1247/BSSCalc",
+      "https://bsscalculator.netlify.app/",
+    ],
+  },
   {
     title: "Animovies",
     images: [
@@ -41,28 +63,6 @@ export const workData = [
     links: [
       "https://github.com/ConorG1247/movie-api-app",
       "https://animovies.netlify.app/",
-    ],
-  },
-  {
-    title: "BSS Calculator",
-    images: [
-      "https://puu.sh/JnQeR/a883911b97.png",
-      "https://puu.sh/JnQfh/d7dbc6ad0d.png",
-      "https://puu.sh/JnQg9/7f01d966c3.png",
-      "https://puu.sh/JnQgm/322fa1f7f9.png",
-      "https://puu.sh/JnQgO/7ef17fd2b7.png",
-      "https://puu.sh/JnQhe/d4c41fdef2.png",
-    ],
-    tech: "React and TypeScript",
-    description: [
-      "After finishing the SoC Bootcamp, I wanted to continue growing my knowledge of tech used as well as ones I'd only been briefly introduced to, this is why I decided to use React and TypeScript for this project. The app was created primarily for mobile however, it's fully responsive and works great for desktop as well.",
-      "The idea for the app is an item recipe calculator for a game I play which makes it easier to keep track of item progress. I initially searched for an app similar to what I needed within the game community but couldn't find anything so I decided to create one myself.",
-      "I felt React would be perfect for this type of project as all I planned on making a single page application and I also wanted to become more comfortable with TypeScript after being introduced to it on the course but not having a good chance to use it.",
-      "There were a few struggles at the beggining while using TypeScript but after a short amount of time I'm now as confident using TS as I am with JavaScript. I used different hooks within react which I hadn't previously used before such as useContext for the theme toggle and passing state throughout the app without prop drilling.",
-    ],
-    links: [
-      "https://github.com/ConorG1247/BSSCalc",
-      "https://bsscalculator.netlify.app/",
     ],
   },
   {
