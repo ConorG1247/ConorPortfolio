@@ -11,6 +11,7 @@ function WorkApp({ displayChange }) {
             className="main-work-item-container"
           >
             <div className="main-work-display-title">{arr.title}</div>
+            <div className="main-work-display-sub">{arr.tech}</div>
             <div className="main-work-image">
               <img src={arr.image} alt={arr.title}></img>
             </div>

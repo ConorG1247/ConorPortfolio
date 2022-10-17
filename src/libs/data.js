@@ -1,18 +1,22 @@
 export const data = [
   {
     title: "Animovies",
+    tech: "React, MongoDB, Express, Node.js and Chakra UI",
     image: "https://puu.sh/JdJkt/b1d4623621.png",
   },
   {
-    title: "BSS Calculator",
+    title: "BSS Tools (Game)",
+    tech: "React and TypeScript",
     image: "https://puu.sh/JnQeR/a883911b97.png",
   },
   {
     title: "BÖK",
+    tech: "Next.js, Postgres, Express, Node.js, Material UI",
     image: "https://puu.sh/JiD0M/8e0949c427.png",
   },
   {
     title: "Learn Japanese",
+    tech: "React and Chakra",
     image: "https://puu.sh/JdRaC/b2e5611c65.png",
   },
 ];
