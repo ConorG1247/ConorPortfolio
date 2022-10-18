@@ -6,7 +6,7 @@ export const data = [
   },
   {
     title: "Improved Twitch",
-    tech: "React, MongoDB, Express, Node.js, Twitch API",
+    tech: "React, TypeScript, MongoDB, Express, Node.js, Twitch API",
     image: "https://puu.sh/JpjeR/d87f3e2666.png",
   },
   {
@@ -61,7 +61,7 @@ export const workData = [
       "https://puu.sh/JpjgG/c3d237a1b6.png",
       "https://puu.sh/JpjgM/9045cc70a8.png",
     ],
-    tech: "React and TypeScript",
+    tech: "React, TypeScript, MongoDB, Express and Node.js",
     description: [
       "This project was something I'd wanted to make for months now but initially I was intimidated about using Twitch's API as it had multiple Client variables that needed to be fetched by the user before recieving data.",
       "To challenge myself to learn new methods for fetches and how I'd go about implementing user auth with Twitch's own API authorization, I started off small by creating just the category page which displays the top 100 games currently streamed on Twitch. After I was happy with this and it was functional, I made a new page for top 100 Live channels which was similar to categories.",
