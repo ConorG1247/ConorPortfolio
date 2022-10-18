@@ -95,7 +95,7 @@ function Navbar() {
               <FontAwesomeIcon className="contact-icon" icon={faEnvelope} />
             </a>
             <a
-              href="https://puu.sh/JiIuW/56200282f8.pdf"
+              href="https://puu.sh/Jphjg/e01eacf16f.pdf"
               download
               target="_blank"
               rel="noreferrer"

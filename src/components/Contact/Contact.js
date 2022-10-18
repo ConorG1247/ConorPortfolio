@@ -36,7 +36,7 @@ function Contact() {
           <FontAwesomeIcon className="contact-icon-lg" icon={faEnvelope} />
         </a>
         <a
-          href="https://puu.sh/JiIuW/56200282f8.pdf"
+          href="https://puu.sh/Jphjg/e01eacf16f.pdf"
           download="Conor_Goddard_CV"
           target="_blank"
           rel="noreferrer"
