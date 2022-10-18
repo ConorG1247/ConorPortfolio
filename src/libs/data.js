@@ -5,6 +5,11 @@ export const data = [
     image: "https://puu.sh/JnQeR/a883911b97.png",
   },
   {
+    title: "Improved Twitch",
+    tech: "React, MongoDB, Express, Node.js, Twitch API",
+    image: "https://puu.sh/JpjeR/d87f3e2666.png",
+  },
+  {
     title: "Animovies",
     tech: "React, MongoDB, Express, Node.js and Chakra UI",
     image: "https://puu.sh/JdJkt/b1d4623621.png",
@@ -23,7 +28,7 @@ export const data = [
 
 export const workData = [
   {
-    title: "BSS Tools (Game App)",
+    title: "BSS Tools",
     images: [
       "https://puu.sh/Jpfen/8b891412d0.png",
       "https://puu.sh/Jpfez/432d808595.png",
@@ -46,6 +51,26 @@ export const workData = [
     links: [
       "https://github.com/ConorG1247/BSSCalc",
       "https://bsscalculator.netlify.app/",
+    ],
+  },
+  {
+    title: "Improved Twitch",
+    images: [
+      "https://puu.sh/JpjeR/d87f3e2666.png",
+      "https://puu.sh/Jpjgd/ceeb963a48.png",
+      "https://puu.sh/JpjgG/c3d237a1b6.png",
+      "https://puu.sh/JpjgM/9045cc70a8.png",
+    ],
+    tech: "React and TypeScript",
+    description: [
+      "This project was something I'd wanted to make for months now but initially I was intimidated about using Twitch's API as it had multiple Client variables that needed to be fetched by the user before recieving data.",
+      "To challenge myself to learn new methods for fetches and how I'd go about implementing user auth with Twitch's own API authorization, I started off small by creating just the category page which displays the top 100 games currently streamed on Twitch. After I was happy with this and it was functional, I made a new page for top 100 Live channels which was similar to categories.",
+      "After getting the main functionality for both of these pages, I decided to implement new features which I've wanted on the main Twitch site for years. This includes Blocking game categories or live channels and filtering by language maintaining selection on all pages.",
+      "I implemented a backend to store users blocklist, including categories and live channel, without the need to log in to my website or Twitch's. This is currently still a work in progress and I will continue to add new features in the future.",
+    ],
+    links: [
+      "https://github.com/ConorG1247/TwitchDashboard",
+      "https://improved-twitch.netlify.app/directory/categories",
     ],
   },
   {
