@@ -50,7 +50,7 @@ export const workData = [
     ],
     links: [
       "https://github.com/ConorG1247/BSSCalc",
-      "https://bsscalculator.netlify.app/",
+      "https://bss-tools.netlify.app/",
     ],
   },
   {
