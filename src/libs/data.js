@@ -81,7 +81,6 @@ export const workData = [
       "https://puu.sh/JdKza/5c8817e8e7.png",
       "https://puu.sh/JdJkt/b1d4623621.png",
       "https://puu.sh/JdKzs/6e201a4cc0.png",
-      "https://puu.sh/JdKzE/a048fd2b56.png",
     ],
     tech: "MongoDB, Express, React, Node.js and Chakra UI",
     description: [
